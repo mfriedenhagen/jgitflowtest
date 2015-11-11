@@ -19,6 +19,10 @@
         <maven-source-plugin.version>2.4</maven-source-plugin.version>
         <maven-javadoc-plugin.version>2.10.3</maven-javadoc-plugin.version>
         <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
+        <pushReleases>true</pushReleases>
+        <noDeploy>true</noDeploy>
+        <autoVersionSubmodules>true</autoVersionSubmodules>
+        <enableSshAgent>true</enableSshAgent>
     </properties>
 
     <dependencies>
@@ -82,9 +86,6 @@
                     <artifactId>jgitflow-maven-plugin</artifactId>
                     <version>${jgitflow-maven-plugin.version}</version>
                     <configuration>
-                        <noDeploy>true</noDeploy>
-                        <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <enableSshAgent>true</enableSshAgent>
                         <flowInitContext>
                             <masterBranchName>production</masterBranchName>
                             <developBranchName>master</developBranchName>
