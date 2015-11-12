@@ -1,0 +1,14 @@
+<document xmlns="http://maven.apache.org/changes/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/xsd/changes-1.0.0.xsd">
+    <properties>
+        <title>Changes</title>
+        <author email="mirko.friedenhagen@1und1.de">Mirko Friedenhagen</author>
+    </properties>
+    <body>
+        <release version="3.0.2" date="2012-03-20" description="Bar">
+            <action dev="mifr" type="fix">
+                Foo
+            </action>
+        </release>
+    </body>
+</document>
